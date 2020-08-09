@@ -10,6 +10,7 @@ namespace JmliebeHomeApi.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Banner_Url { get; set; }
         public string Version { get; set; }
         public DateTime Start_Date { get; set; }
     }
